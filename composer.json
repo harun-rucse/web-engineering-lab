@@ -1,0 +1,11 @@
+{
+  "require": {
+    "dompdf/dompdf": "^2.0",
+    "twig/twig": "^3.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Bookstore\\": "src/"
+    }
+  }
+}

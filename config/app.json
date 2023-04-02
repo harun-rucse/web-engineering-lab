@@ -1,0 +1,7 @@
+{
+  "db": {
+    "database": "bookstore",
+    "user": "root",
+    "password": ""
+  }
+}
