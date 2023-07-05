@@ -15,7 +15,7 @@ class Book
 
     public function getAllBooks()
     {
-        return  $this->db->query('SELECT * FROM book ORDER BY title');
+        return  $this->db->query('SELECT * FROM book ORDER BY id');
     }
 
     public function getBook($id)

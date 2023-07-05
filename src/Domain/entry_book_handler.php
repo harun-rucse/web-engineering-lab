@@ -15,4 +15,3 @@
     $booksJson = json_encode($books, JSON_PRETTY_PRINT);
     file_put_contents('books.json', $booksJson);
     header('Location: index.php');
-?>
